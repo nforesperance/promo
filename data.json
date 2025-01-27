@@ -1,22 +1,58 @@
 [
   {
+    "id": "af3b8048-4a86-49e2-b09a-522f542c466f",
     "preview": {
       "type": "generic",
       "title": "Other a Taxi",
       "message": "Order a taxi from anywhere",
-      "button_text": "See More",
-      "image": "assets/images/promo.png",
+      "button_text": "Order",
+      "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/iconscout-girl-tracking-taxi-using-app.png",
       "style": {
-        "title": { "color": 0, "font_size": 20 },
-        "message": { "color": 0, "font_size": 16 },
+        "title": { "color": 0, "font_size": 15 },
+        "message": { "color": 0, "font_size": 12 },
         "button": {
           "color": 16777215,
-          "font_size": 16,
+          "font_size": 12,
           "background_color": 16711680
         },
         "background_color": 16777215
       },
       "show_button": true
+    },
+
+    "on_click": {
+      "type": "show_screen",
+      "screen": "/taxi-page",
+      "mark_as_read": false,
+      "hide_behavior": "never"
+    }
+  },
+  {
+    "id": "fbd7fcdd-bf64-40ea-8562-85e86678536b",
+    "preview": {
+      "type": "generic",
+      "title": "Reserve a ride",
+      "message": "Plan your trip with us",
+      "button_text": "Reserve",
+      "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/ride_taxi_vector-removebg.png",
+      "style": {
+        "title": { "color": 0, "font_size": 15 },
+        "message": { "color": 0, "font_size": 12 },
+        "button": {
+          "color": 16777215,
+          "font_size": 12,
+          "background_color": 16711680
+        },
+        "background_color": 16777215
+      },
+      "show_button": true
+    },
+
+    "on_click": {
+      "type": "show_screen",
+      "screen": "/ride-view-page",
+      "mark_as_read": false,
+      "hide_behavior": "never"
     }
   }
 ]
