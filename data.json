@@ -55,6 +55,34 @@
         "mark_as_read": false,
         "hide_behavior": "never"
       }
+    },
+    {
+      "id": "ebab6908-1df7-4fe9-8789-b02954037dcd",
+      "preview": {
+        "type": "image",
+        "title": "Money Transfer",
+        "message": "Send and receive money from anywhere",
+        "button_text": "Reserve",
+        "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/slider_pub_2.png",
+        "style": {
+          "title": { "color": 0, "font_size": 15 },
+          "message": { "color": 0, "font_size": 12 },
+          "button": {
+            "color": 16777215,
+            "font_size": 12,
+            "background_color": 16711680
+          },
+          "background_color": 16777215
+        },
+        "show_button": false
+      },
+
+      "on_click": {
+        "type": "show_screen",
+        "screen": "/ride-view-page",
+        "mark_as_read": false,
+        "hide_behavior": "never"
+      }
     }
   ]
 }
