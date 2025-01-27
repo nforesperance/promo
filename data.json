@@ -1,0 +1,22 @@
+[
+  {
+    "preview": {
+      "type": "generic",
+      "title": "Other a Taxi",
+      "message": "Order a taxi from anywhere",
+      "button_text": "See More",
+      "image": "assets/images/promo.png",
+      "style": {
+        "title": { "color": 0, "font_size": 20 },
+        "message": { "color": 0, "font_size": 16 },
+        "button": {
+          "color": 16777215,
+          "font_size": 16,
+          "background_color": 16711680
+        },
+        "background_color": 16777215
+      },
+      "show_button": true
+    }
+  }
+]
