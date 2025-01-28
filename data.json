@@ -4,26 +4,36 @@
       "id": "ce0936d5-c904-43df-970a-1f9b4d55d2da",
       "preview": {
         "type": "image",
-        "title": "Money Transfer",
-        "message": "Send and receive money from anywhere",
-        "button_text": "See Wallet",
         "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/slider_pub_1-2.png",
         "style": {
-          "title": { "color": 0, "font_size": 15 },
-          "message": { "color": 0, "font_size": 12 },
-          "button": {
-            "color": 16777215,
-            "font_size": 12,
-            "background_color": 16711680
-          },
           "background_color": 16777215
         },
         "show_button": false
       },
 
       "on_click": {
-        "type": "show_screen",
-        "screen": "/intercity-sharing-page",
+        "type": "update_app",
+        "mark_as_read": false,
+        "hide_behavior": "never"
+      }
+    },
+
+    {
+      "id": "ce0936d5-c904-43df-970a-1f9b4d55d2da",
+      "preview": {
+        "type": "image",
+        "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/promo.png",
+        "style": {
+          "background_color": 16777215
+        },
+        "show_button": false
+      },
+
+      "on_click": {
+        "type": "open_url",
+        "url": "https://www.google.com",
+        "external_url": true,
+
         "mark_as_read": false,
         "hide_behavior": "never"
       }
@@ -50,8 +60,8 @@
       },
 
       "on_click": {
-        "type": "show_screen",
-        "screen": "/taxi-page",
+        "type": "open_page",
+        "page": "/taxi-page",
         "mark_as_read": false,
         "hide_behavior": "never"
       }
@@ -78,8 +88,8 @@
       },
 
       "on_click": {
-        "type": "show_screen",
-        "screen": "/ride-view-page",
+        "type": "open_page",
+        "page": "/ride-view-page",
         "mark_as_read": false,
         "hide_behavior": "never"
       }
@@ -106,8 +116,8 @@
       },
 
       "on_click": {
-        "type": "show_screen",
-        "screen": "/ride-view-page",
+        "type": "open_page",
+        "page": "/ride-view-page",
         "mark_as_read": false,
         "hide_behavior": "never"
       }
