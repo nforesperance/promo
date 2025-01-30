@@ -4,10 +4,21 @@
       "id": "ce0936d5-c904-43df-970a-1f9b4d55d2da",
       "preview": {
         "type": "image",
+        "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/images/slider_pub_5-2.png",
+        "show_button": false
+      },
+
+      "on_click": {
+        "type": "update_app",
+        "mark_as_read": false,
+        "hide_behavior": "never"
+      }
+    },
+    {
+      "id": "ce0936d5-c904-43df-970a-1f9b4d55d2da",
+      "preview": {
+        "type": "image",
         "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/slider_pub_1-2.png",
-        "style": {
-          "background_color": 16777215
-        },
         "show_button": false
       },
 
@@ -23,9 +34,6 @@
       "preview": {
         "type": "image",
         "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/promo.png",
-        "style": {
-          "background_color": 16777215
-        },
         "show_button": false
       },
 
