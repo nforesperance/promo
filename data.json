@@ -1,17 +1,29 @@
 {
   "data": [
     {
-      "id": "ce0936d5-c904-43df-970a-1f9b4d55d2da",
+      "id": "ce0936d5-c904-43df-970a-1f9b4d55d2d1",
       "preview": {
         "type": "image",
-        "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/images/slider_pub_5-2.png",
+        "image": "https://raw.githubusercontent.com/nforesperance/promo/refs/heads/master/images/slider_pub_5.png",
         "show_button": false
       },
 
       "on_click": {
-        "type": "update_app",
+        "type": "show_dialog",
         "mark_as_read": false,
-        "hide_behavior": "never"
+        "hide_behavior": "never",
+        "barrier_dismissible": false
+      },
+      "content": {
+        "type": "html",
+        "title": "Attention !!!",
+        "data": "<div style=\"max-width: 600px; margin: 2rem auto; padding: 2rem; font-family: Arial, sans-serif; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);\"><div style=\"text-align: center; margin-bottom: 1.5rem;\"><div style=\"font-size: 3rem; color: #dc3545; margin-bottom: 1rem;\">⚠️</div><h2 style=\"color: #dc3545; margin: 0 0 1rem 0;\">Account Suspended</h2></div><div style=\"color: #333; line-height: 1.6; margin-bottom: 1.5rem;\"><p>Your account has been temporarily suspended due to suspicious activity detected in your account.</p><p>This suspension is necessary to protect your account and our community. Please contact our support team to resolve this issue.</p></div><div style=\"background: #f8f9fa; padding: 1rem; border-radius: 6px; text-align: center;\"><p style=\"margin: 0.5rem 0;\">📧 Contact Support:</p><a href=\"mailto:support@yourcompany.com\" style=\"color: #007bff; text-decoration: none; font-weight: bold;\">support@yourcompany.com</a></div><p style=\"color: #666; font-size: 0.9rem; margin-top: 1.5rem; text-align: center;\">We appreciate your understanding and cooperation.</p></div>",
+        "actions": [
+          {
+            "type": "close_app",
+            "label": "Close App"
+          }
+        ]
       }
     },
     {
